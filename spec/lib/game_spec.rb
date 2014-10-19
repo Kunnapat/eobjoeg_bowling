@@ -62,6 +62,23 @@ describe Game do
 	end
 	######################### END OF TEST ###########################
 
+	####################### OTHER TEST CASES ########################
+
+	describe "OTHER TEST CASES" do
+		it "OTHER TEST CASES" do
+			puts "WHEN THE GAME IS OVERTHROWN"
+			game = Game.new()
+			for i in 1..22
+				game.roll(2)
+			end
+
+			puts "\n\nEXCEEDING PIN"
+			game = Game.new()
+			game.roll(12)
+		end
+	end
+
+	################################################################
 
 
 
